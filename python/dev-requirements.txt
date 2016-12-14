@@ -1,0 +1,14 @@
+# This file lists the requirements needed to develop on ga4gh-schemas
+
+# Include the requirements.txt file
+-r requirements.txt
+
+pep8
+coverage
+PyYAML
+flake8
+humanize
+nose
+requests
+sphinx==1.4.6
+sphinx_rtd_theme

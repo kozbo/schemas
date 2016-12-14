@@ -168,16 +168,16 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.tomdz.maven</groupId>
+        <groupId>kr.motd.maven</groupId>
         <artifactId>sphinx-maven-plugin</artifactId>
-        <version>1.0.2</version>
+        <version>1.4.0.Final</version>
         <configuration>
           <sourceDirectory>doc/source</sourceDirectory>
           <outputDirectory>target/doc</outputDirectory>
         </configuration>
         <executions>
           <execution>
-            <phase>package</phase>
+            <phase>site</phase>
             <goals>
               <goal>generate</goal>
             </goals>
